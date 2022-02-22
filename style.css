@@ -10,12 +10,13 @@ body{
     background-color:rgb(236, 147, 222);
 }
 header{
-    background-color:rgb(255, 112, 200);
+    background-color:rgb(245, 131, 201);
     height: 90px;
     display: flex;;
     padding-left: 40px;
     padding-right: 40px;
     align-items: center;
+    justify-content: space-between;
 }
 h1 {
     color:#000000;
@@ -42,7 +43,7 @@ h1 {
 }
 .logo{
     max-width: 80px;
-    justify-content: left
+    justify-content: flex-start;
     
 }
  .saiba{
@@ -61,8 +62,16 @@ h1 {
      max-height: 700px;
 }
 
-.cabeçalho1{
+.cabeçalho{
+    height: 90px;
     display: flex;
+    justify-content:space-around;
+    align-items:center;
+    gap:20px;
 
+}
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
           
